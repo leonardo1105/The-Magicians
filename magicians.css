@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Nunito:wght@200;300;400;500;600&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+header{
+  background:#00012a;
+  display:flex;
+  justify-content:space-between;
+  padding:15px;
+}
+nav{
+  width:40%;
+  display:flex;
+  align-items:center;
+}
+ul{
+  display:flex;
+  justify-content:space-evenly;
+  width:100%;
+}
+header h2{
+  color:white;
+  font-family:'eb garamond';
+  font-weight:900;
+  font-size:40px;
+  padding-left:10px;
+}
+.btndiv{
+  display:flex;
+  align-items:center;
+}
+button{
+  padding:10px 25px;
+  border-radius:20px;
+  font-family:'montserrat';
+  font-weight:500;
+  border:none;
+  background:#7d13a4;
+  color:white;
+  cursor:pointer;
+  transition:0.5s all;
+}
+button:hover{
+  background:white;
+  color:#7d13a4;
+}
+li{
+  list-style:none;
+}
+a{
+  color:white;
+  text-decoration:none;
+  font-family:'montserrat';
+  transition:0.5s all;
+  font-size:14px;
+  font-weight:500;
+}
+a:hover{
+  color:#7d13a4;
+}
+
+main{
+  background:#180334;
+}
+.description{
+  background-image:url('https://i.redd.it/f4f27b8z5va51.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:100%;
+  height:700px;
+  display:flex;
+  padding-top:80px;
+  padding-left:20px;
+}
+.description h1{
+  font-size:60px;
+  color:#e7f7f8;
+  text-shadow:0px 2px black;
+  font-family:'montserrat';
+}
+.description p{
+  width:500px;
+  font-family:'nunito';
+  font-weight:600;
+  transition:0.5s all;
+  padding-left:2px;
+}
+.description p:hover{
+  background:darkblue;
+  color:white;
+  opacity:0.8;
+  border-radius:5px;
+}
+#bookstitle{
+  text-align:center;
+  font-family:'montserrat';
+  color:white;
+  font-size:25px;
+  font-weight:700;
+  box-shadow:0 0 10px 2px black;
+}
+.book1,.book2,.book3{
+  display:flex;
+}
+.book1box{
+  background:white;
+  color:black;
+  font-weight:400;
+  font-family:'montserrat';
+  padding-right:50px;
+  padding-left:10px;
+  padding-top:10px;
+}
+.book1box p{
+  margin-bottom:10px;
+}
+
+.book1 img{
+  width:200px;
+  height:100%;
+}
+.book2{
+  flex-direction:row-reverse;
+  box-shadow:0 0 20px 2px;
+  margin-top:3px;
+}
+.book2box{
+  background:white;
+  color:black;
+}
+.book2box p{
+  font-weight:400;
+  font-family:'montserrat';
+  margin-bottom:10px;
+  padding-left:20px;
+  padding-top:10px;
+}
+.book2 img{
+  height:100%;
+  width:200px;
+}
+.book3{
+  margin-top:3px;
+}
+.book3 img{
+  height:100%;
+  width:200px;
+}
+.book3box{
+  background:white;
+}
+.book3box p{
+  font-family:'montserrat';
+  font-weight:400;
+  padding-right:50px;
+  padding-left:10px;
+  padding-top:10px;
+}
+#seriesbox{
+  text-align:center;
+  color:white;
+  font-family:'montserrat';
+  font-size:25px;
+  font-weight:700;
+}
+.series{
+  display:flex;
+  flex-direction:row-reverse;
+  margin-top:3px;
+  box-shadow:0 0 5px 2px;
+}
+.series p{
+  width:100%;
+  margin-bottom:10px;
+  font-family:'montserrat';
+}
+.series div{
+  background:white;
+  padding-left:20px;
+  padding-top:10px;
+}
+.series img{
+  height:100%;
+}
+#curiositietitle{
+  text-align:center;
+  font-family:'montserrat';
+  color:white;
+  font-size:25px;
+  font-weight:700;
+}
+.curiositebox{
+  background:white;
+  padding-top:10px;
+  padding-bottom:5px;
+}
+.curiositebox p{
+  font-family:'montserrat';
+  padding-left:20px;
+  margin-bottom:10px;
+}
+footer{
+  background:#060E2C;
+  font-family:'montserrat';
+  color:white;
+  font-weight:100;
+  font-size:12px;
+}
+footer div img{
+  width:35px;
+}
+.redesocial{
+  display:flex;
+  justify-content:space-around;
+  width:20%;
+  margin:0 auto;
+  padding:10px 0;
+}
