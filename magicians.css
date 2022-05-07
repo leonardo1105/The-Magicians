@@ -101,33 +101,37 @@ main{
   font-weight:700;
   box-shadow:0 0 10px 2px black;
 }
-.book1,.book2,.book3{
-  display:flex;
-}
 .book1box{
   background:white;
   color:black;
   font-weight:400;
   font-family:'montserrat';
   padding-right:50px;
-  padding-left:10px;
   padding-top:10px;
+  min-height:310px;
 }
 .book1box p{
   margin-bottom:10px;
+  padding-left:10px;
+}
+.book1 figure{
+  float:left;
 }
 .book1 img{
   width:200px;
-  height:100%;
+  height:309px;
+  padding-right:10px;
 }
 .book2{
-  flex-direction:row-reverse;
-  box-shadow:0 0 20px 2px;
   margin-top:3px;
+}
+.book2 figure{
+  float:right;
 }
 .book2box{
   background:white;
   color:black;
+  min-height:316px;
 }
 .book2box p{
   font-weight:400;
@@ -137,18 +141,24 @@ main{
   padding-top:10px;
 }
 .book2 img{
-  height:100%;
+  height:316px;
   width:200px;
+  max-width:316px;
 }
 .book3{
   margin-top:3px;
 }
+.book3 figure{
+  float:left;
+}
 .book3 img{
-  height:100%;
+  height:308px;
   width:200px;
+  padding-right:10px;
 }
 .book3box{
   background:white;
+  min-height:308px;
 }
 .book3box p{
   font-family:'montserrat';
@@ -165,8 +175,6 @@ main{
   font-weight:700;
 }
 .series{
-  display:flex;
-  flex-direction:row-reverse;
   margin-top:3px;
   box-shadow:0 0 5px 2px;
 }
@@ -179,10 +187,15 @@ main{
   background:white;
   padding-left:20px;
   padding-top:10px;
+  min-height:404px;
+}
+.series figure{
+  float:right;
 }
 .series img{
   height:100%;
   width:300px;
+  
 }
 #curiositietitle{
   text-align:center;
