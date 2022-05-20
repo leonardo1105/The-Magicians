@@ -87,6 +87,7 @@ main{
   transition:0.5s all;
   padding-left:2px;
 }
+
 .description p:hover{
   background:darkblue;
   color:white;
@@ -106,7 +107,7 @@ main{
   color:black;
   font-weight:400;
   font-family:'montserrat';
-  padding-right:50px;
+  padding-right:25px;
   padding-top:10px;
   min-height:310px;
 }
@@ -163,7 +164,7 @@ main{
 .book3box p{
   font-family:'montserrat';
   font-weight:400;
-  padding-right:50px;
+  padding-right:25px;
   padding-left:10px;
   padding-top:10px;
 }
@@ -230,4 +231,20 @@ footer div img{
   width:20%;
   margin:0 auto;
   padding:10px 0;
+}
+ 
+
+@media(max-width:620px){
+  nav{
+    display:none;
+  }
+  header{
+    justify-content: space-around;
+  }
+  .description p{
+    width:80vw;
+  }
+  .description h1{
+    font-size:45px;
+  }
 }
